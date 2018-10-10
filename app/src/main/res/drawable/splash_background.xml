@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/holo_blue_bright"/>
+
+    <!-- vector asset으로 만든 이미지 -->
+    <item android:gravity="center" android:width="200dp" android:height="200dp" android:drawable="@drawable/ic_audiotrack_black_24dp"/>
+
+    <!-- bitmap 파일을 사용하는 방법 -->
+    <!--
+    <item>
+        <bitmap android:src="@mipmap/ic_launcher_round" android:gravity="center"/>
+    </item>
+    -->
+
+</layer-list>
